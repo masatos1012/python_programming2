@@ -87,4 +87,4 @@ def stirng_slice():
     # インデックス範囲指定
     print(word[0:4])
     print(word[2:5])
-    print(word[2:-1]
+    print(word[2:-1])
