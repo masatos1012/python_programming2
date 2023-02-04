@@ -12,6 +12,7 @@
 
 # 標準型
 def standard_arg(arg):
+    print('#################特殊引数#####################')
     print(arg)
 
 
@@ -105,6 +106,7 @@ def foo(name, **kwds):
     for i in kwds:
         result = i
         print(i)
+    print('#################↑特殊引数↑#####################')
     return 'name' in kwds
 
 

@@ -1,4 +1,5 @@
 import numeric_type as nt
+import special_argument as sa
 import string_type as st
 import variable_declaration as vd
 import data_structure as ds
@@ -25,3 +26,11 @@ ds.data_structure_list()
 # vd.closuer()
 # デコレーター
 # vd.decolator()
+
+
+sa.standard_arg(arg=2)
+sa.pos_only_arg(2)
+sa.pos_only_arg2(1, 2, 3, d=4)
+sa.kwd_only_arg(arg=2)
+sa.combinated_example(1, 2, kwd_only=3)
+sa.foo('aaaa', bbb='bbb', ccc='ccc')
