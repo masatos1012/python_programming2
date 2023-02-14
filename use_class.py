@@ -9,6 +9,7 @@ class Human(object):
     基底クラスの宣言
     クラス変数：名前　性別　年齢　タプル
     """
+    # 変数の初期化
     name = None
     sex = None
     age = None
@@ -40,6 +41,7 @@ class JapaneHuman(Human):
     def __init__(self, name=None, sex=None, age=None):
         self.age = '54'
         super().__init__(name, sex, age)
+        Human.say_something()
 
 
 # コンストラクタ前、初期変数はNoneが入っているためTypeはNone型になる
@@ -53,5 +55,5 @@ human.say_something()
 print('print(human.name)', type(human.name))
 
 print('########################################')
-japanese_human = JapaneHuman('Seki', 'meen')
-japanese_human.say_something()
+japanese_human = JapaneHuman('Seki', 'men', '23')
+# japanese_human.say_something()

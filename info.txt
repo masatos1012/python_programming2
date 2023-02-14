@@ -21,14 +21,14 @@ scratch.py・・・仮作成用
 main.py・・・controllerの呼び出しに使う
     controller.py<未作成>
         mainからの呼び出しに対応している物
-    	numeric_type.py
-    	string_type.py
     	data_structure.py
+    	numeric_type.py
+    	speclai_argument.py
+    	string_type.py
     	variable_declaration.py
 
     	mainからの呼び出しに対応していない物
     	use_class.py
-    	speclai_argument.py
 
 <作業中>
 → class_definition.py

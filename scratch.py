@@ -32,7 +32,7 @@ class Human(object):
 
 
 # 　上記を継承したクラスを作成し、別メソッドを作成する。
-class JapaneHuman(Human):
+class JapaneseHuman(Human):
     def __init__(self, name=None, sex=None, age=None):
         self.age = '54'
         super().__init__(name, sex, age)
@@ -49,5 +49,5 @@ human.say_something()
 print('print(human.name)', type(human.name))
 
 print('########################################')
-japanese_human = JapaneHuman('Seki', 'meen')
-japanese_human.say_something()
+japanese_human = JapaneseHuman('Seki', 'meen')
+JapaneseHuman.say_something(self)
