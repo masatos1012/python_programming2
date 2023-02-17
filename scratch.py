@@ -49,5 +49,6 @@ human.say_something()
 print('print(human.name)', type(human.name))
 
 print('########################################')
-japanese_human = JapaneseHuman('Seki', 'meen')
-JapaneseHuman.say_something(self)
+japanese_human = JapaneseHuman('Seki', 'meen', '15')
+japanese_human.say_something()
+
