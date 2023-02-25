@@ -67,10 +67,10 @@ def string_new_line():
     s = 'aaaaaaaaaaaaaaa' \
         + 'bbbbbbbbbbbb'
     print(s)
-    print('hoge\n' 
+    print('hoge\n'
           'fuga')
     print(""" \
-        ################↑改行について↑##################   
+    ################↑改行について↑##################   
         """)
 
 
@@ -79,6 +79,9 @@ def stirng_slice():
     文字列のインデックスとスライス
     []指定によって指定範囲、指定インデックスの文字列を取得できる
     """
+    print(""" \
+    ################↓スライスの挙動↓##################   
+        """)
     word = 'Python'
     # 通常
     print(word[0])
@@ -88,3 +91,12 @@ def stirng_slice():
     print(word[0:4])
     print(word[2:5])
     print(word[2:-1])
+    print(""" \
+    ################↑スライスの挙動↑##################   
+        """)
+
+
+# デバッグ用
+string_type()
+string_new_line()
+stirng_slice()
