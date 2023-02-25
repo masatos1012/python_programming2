@@ -22,7 +22,11 @@ main.py・・・controllerの呼び出しに使う
     controller.py<未作成>
         mainからの呼び出しに対応している物
     	data_structure.py
+    	    ・リストの操作
+    	    ・if文基本
+    	    ・for文基本
     	numeric_type.py
+    	    ・
     	speclai_argument.py
     	string_type.py
     	variable_declaration.py

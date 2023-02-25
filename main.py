@@ -21,13 +21,13 @@ st.stirng_slice()
 # データ構造
 ds.data_structure_list()
 # 関数内関数
-# vd.innner_function()
+vd.innner_function()
 # クロージャー
 # vd.closuer()
 # デコレーター
 # vd.decolator()
 
-
+# 特殊引数
 sa.standard_arg(arg=2)
 sa.pos_only_arg(2)
 sa.pos_only_arg2(1, 2, 3, d=4)

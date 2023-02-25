@@ -110,5 +110,26 @@ def data_structure_list():
       ################　↑リスト↑　##################   
       """)
 
+
+# if文基本系
+def data_structure_if():
+    for n in range(2, 10):
+        for x in range(2, n):
+            if n % x == 0:
+                print(n, 'equals', x, '*', n // x)
+            break
+        else:
+            print(n, 'is a prime number')
+
+
+# 基本的なfor文
+def data_structure_for():
+    testlist = ["apple", "lemon", "melon" + "number"]
+
+    for i in testlist:
+        print('for文の中身={}'.format(i), "長さは={}".format(len(i)))
+
 # デバッグ用
 # data_structure_list()
+# data_structure_for()
+# data_structure_if()
