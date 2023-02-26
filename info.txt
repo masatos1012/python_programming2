@@ -21,6 +21,12 @@ scratch.py・・・仮作成用
 main.py・・・controllerの呼び出しに使う
     controller.py<未作成>
         mainからの呼び出しに対応している物
+        variable_declaration.py
+            ・変数宣言
+            ・関数内関数
+            ・クロージャ
+            Todo　meinからのクロージャ呼び出し方法をきれいにする
+            ・デコレータ
     	data_structure.py
     	    ・リストの操作
     	    ・if文基本
@@ -29,7 +35,6 @@ main.py・・・controllerの呼び出しに使う
     	    ・
     	speclai_argument.py
     	string_type.py
-    	variable_declaration.py
 
     	mainからの呼び出しに対応していない物
     	use_class.py
