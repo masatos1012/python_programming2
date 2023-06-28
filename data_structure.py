@@ -130,6 +130,6 @@ def data_structure_for():
         print('for文の中身={}'.format(i), "長さは={}".format(len(i)))
 
 # デバッグ用
-# data_structure_list()
-# data_structure_for()
-# data_structure_if()
+data_structure_list()
+data_structure_for()
+data_structure_if()

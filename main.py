@@ -34,3 +34,5 @@ sa.pos_only_arg2(1, 2, 3, d=4)
 sa.kwd_only_arg(arg=2)
 sa.combinated_example(1, 2, kwd_only=3)
 sa.foo('aaaa', bbb='bbb', ccc='ccc', ddd='ddd')
+
+
